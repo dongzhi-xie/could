@@ -9,6 +9,6 @@ public class testService {
     @Autowired
     RestTemplate restTemplate;
     public String sayHello(){
-        return restTemplate.getForObject("http://ribbon/hello?name=lllll     ",String.class);
+        return restTemplate.getForObject("http://ribbon/hello?name=华为  ",String.class);
     }
 }

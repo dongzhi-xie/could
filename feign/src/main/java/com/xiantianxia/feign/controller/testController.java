@@ -12,6 +12,6 @@ public class testController {
     @GetMapping("/hello")
     public String sayHello(String name){
 
-        return testService.sayHello()+""+name+"世界那抹大，可以去看看";
+        return testService.sayHello()+""+name+"咱们一起去看";
     }
 }
